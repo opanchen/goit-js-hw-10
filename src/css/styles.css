@@ -18,3 +18,27 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.common-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  list-style: none;
+}
+
+h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
